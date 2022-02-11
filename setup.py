@@ -49,7 +49,7 @@ setuptools.setup(
                       'bandit',             # Syntax/security checking
                       'ephem',              # Required for overpass predictor
                       'isodate',            # Required for overpass predictor
-                      # 'cartopy==0.20.0',    # Currently must install via conda
+                      'cartopy==0.20.0',    # Currently must install via conda
                       ],
     entry_points={
         'console_scripts': [
